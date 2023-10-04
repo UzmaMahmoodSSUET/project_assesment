@@ -1,0 +1,15 @@
+<h1> All Users Are Here </h1>
+<br><br>
+<table border="2">
+    {% for user in users %}
+    <tr> 
+        <!-- # table row -->
+        <td>{{user[0]}}</td>
+        <!-- #table data -->
+        <td>{{user[1]}}</td>
+    </tr>
+
+    {% endfor %}
+</table>
+
+
